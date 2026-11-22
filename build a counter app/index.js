@@ -1,19 +1,26 @@
-let lapsCompleted = 0
+// document.getElementById("count").innerText = 5
 
-// Create a function that increments the lapsCompleted variable with one
-function lapsCompletedd(){
-    lapsCompleted++;
-    return lapsCompleted;
+// let count = 5
+// count = count + 1
+// console.log(count)
+
+// intialize the count as 0
+let count = 0;
+let countEl = document.getElementById('count');
+// listen for clicks on the increment button
+
+// increment the count variable when the button is clicked (log it out)
+function increment(){
+    count = count + 1
+    countEl.innerHTML=count;
 }
-// Run it three times
-lapsCompletedd();
-lapsCompletedd();
-lapsCompletedd();
+// change the count-el in the HTML to reflect the new count
 
 
 
 
-console.log(lapsCompleted)
+
+
 
 
 
